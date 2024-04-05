@@ -1,0 +1,40 @@
+
+#root{
+  width: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color:#1a1a1a !important;
+  color:white !important;
+  
+  
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: white;
+    background-color: #1a1a1a;
+  }
+  a:hover {
+    color:white;
+  }
+  
+  button {
+    background-color: #f9f9f9;
+  }
+}

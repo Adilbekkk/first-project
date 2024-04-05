@@ -1,0 +1,131 @@
+
+.join{
+    position:fixed;
+    font-weight: 700;
+    font-size:large !important;
+    background-color:white;
+    transition:background-color 1s ease;
+    color:black;
+    width:100px;
+    height: 50px;
+    opacity:1;
+    text-align: center;
+    font-size: medium;
+    border-radius: 10px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 550px;
+
+}
+
+.join:hover{
+    background-color:rgb(112 83 255);
+    text-decoration: none;
+
+}
+@keyframes join{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: rgb(112 83 255);
+    }
+}
+.Joindiv{
+    display:flex;
+    justify-content: end;
+    align-items: flex-start;
+}
+.main{
+   
+    background-color:grey;
+    border-radius: 30px;
+    width:1360px;
+    height:680px;
+    margin:150px;
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+}
+
+.maincard{
+    border-radius: 30px;
+    
+    margin:10px 10px 10px 10px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    width:1300px;
+    height: 600px;
+
+}
+
+.textcard{
+    box-sizing: border-box;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+}
+.tabcard{
+
+    
+    box-sizing: border-box;
+    width:600px;
+    height: 600px;
+    display:flex;
+    align-items: center;
+}
+.feature{
+    display:flex;
+    justify-content: center;
+    
+}
+.journal{
+    display:flex;
+    justify-content: center;
+    
+}
+.ullist{
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    
+}
+.bttn{
+    background-color:#1e1e1c;
+    opacity:1;
+    padding:10px;
+    border-radius: 10px;
+
+}
+.bttn:hover{
+    text-decoration: none;
+    background-color: #1a1a1a;
+    
+}
+.paragraph{
+    font-size:80px;
+    font-weight: bolder;
+    line-height: 1;
+    max-width:1280px;
+    padding:40px;
+    margin-left:150px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.word{
+    margin-right: 12px;
+    position:relative;
+    
+}
+.shadow{
+    position:absolute;
+    opacity:0.1;
+}
