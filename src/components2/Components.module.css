@@ -1,0 +1,116 @@
+.photo{
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
+.photo1 img{
+    margin:100px 450px 10px 540px;
+    border-radius: 30px;
+    
+}
+.photo1 h1{
+    font-size:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    top:70%;
+    margin-left: 400px;
+    margin-right: 300px;
+    text-align-last: center;
+}
+.photo1 p{
+    font-size: 30px;
+    margin:0 490px 0 630px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divider{
+    
+     width: 1px; /* Adjust the width of the divider */
+     height: 200px; /* Set the height of the divider to fill the parent container */
+     background-color: #ccc;
+     margin-left:850px;
+     margin-top:60px;
+     opacity: 0.3;     
+}
+.year{
+    width:90px;
+    height: 40px;
+    background-color: black;
+    margin-left:808px;
+    border-radius:20px;
+}
+.year p {
+    text-align: center;
+    padding:5px;
+    font-size: 20px;
+}
+.storyText{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.storyText p {
+    font-size: 45px;
+    width:1000px;
+    display: flex;
+    justify-content: center;
+    text-align-last:center;
+    line-height: 50px;
+}
+.text{
+    text-align-last:center;
+    font-size: 24px;
+    
+}
+.bear{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding:200px 200px 50px 200px;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+    position: relative;
+}
+.gradient{
+    background: linear-gradient(to right, rgb(112 83 255), rgb(194, 185, 243),rgb(167, 117, 204)); /* Define the gradient colors */
+    background-clip: text; /* Apply the gradient to the text */
+    color: transparent; /* Hide the original text */
+}
+.albumContainer{
+    background-color: rgb(112 83 255);
+    height: 1000px;
+    width: 1600px;
+    margin:0 auto;
+    border-radius: 30px;
+    display:flex;
+   
+    
+  
+  
+}
+.wordss{
+    margin-top:50px;
+    margin-right: 300px;
+    margin-left:150px; 
+    box-sizing: border-box;  
+}
+.albums{
+    width:500px;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+   
+
+   
+    
+}
+
+.hbeta{
+    margin:20px;
+    
+
+    
+  
+    
+}
+

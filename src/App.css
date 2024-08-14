@@ -6,38 +6,16 @@ body {
   
 }
 
-
-nav{
-  display:flex;
-  
-
-}
-
-
-ul{
-  margin-top: 20px;
-  height: 50px;
-  width:1000px;
-  display:flex;
-  justify-content: end;
-}
-
-
 li{
   list-style-type: none;
-  float:left;
   color:white;
   margin:15px;
-
-  
 }
 
 a {
   font-weight: 500;
   font-size: larger;
   text-decoration: none;
-  flex-direction: row;
-  opacity:0.5;
   color:white;  
   
   
@@ -122,5 +100,47 @@ form{
 
 }
 
+.block{
+  margin-top:200px;
+  margin-left :370px;
+  width:580px;
+}
 
+.grid-container {
+  margin:60px 0px 250px 25px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto ;
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grids{
+  display:flex;
+  justify-content: center;
+}
+
+
+
+.sidegrid{
+  display: flex;
+  justify-content: center;
+  margin:15px;
+}
+
+.workflow{
+  display:flex;
+  justify-content: center;
+  margin-top: 500px;
+  margin:15px;
+  margin-top: 240px;
+  gap:200px;
+  
+}
 

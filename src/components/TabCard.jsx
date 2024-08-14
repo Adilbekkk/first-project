@@ -67,7 +67,7 @@ export default function Tabcard() {
 
       <Tabs.Panel w={350} value="strength">
         <img width={350} height={450} src="canelo.jpg" alt="canelo" />
-        Gennadi Golovkin
+        Canelo Alvarez
       </Tabs.Panel>
     </Tabs>
    
